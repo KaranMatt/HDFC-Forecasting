@@ -1,23 +1,23 @@
-# 📈 HDFC Stock Price Forecasting with Deep Learning
+# HDFC Stock Price Forecasting with Deep Learning
 
 > A comprehensive time series analysis and forecasting project leveraging deep learning models to predict HDFC stock prices using historical data from 2000-2021.
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements multiple deep learning architectures to forecast HDFC stock prices, progressing from simple baseline models to sophisticated multivariate LSTM networks. The analysis demonstrates a systematic approach to time series forecasting, achieving a **62% improvement** over baseline predictions using advanced multivariate models.
 
 ### Key Highlights
-- 📊 21 years of historical stock data (2000-2021)
-- 🔄 Chronological train-test split (80-20)
-- 🎲 Multiple model architectures (Dense, LSTM)
-- 📉 Univariate and Multivariate approaches
-- ✅ Comprehensive evaluation metrics (MAE, RMSE, MAPE, MASE)
+-  21 years of historical stock data (2000-2021)
+-  Chronological train-test split (80-20)
+-  Multiple model architectures (Dense, LSTM)
+-  Univariate and Multivariate approaches
+-  Comprehensive evaluation metrics (MAE, RMSE, MAPE, MASE)
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 **Source:** HDFC Stock Historical Data  
 **Time Period:** 2000 - 2021  
@@ -35,7 +35,7 @@ This project implements multiple deep learning architectures to forecast HDFC st
 
 ---
 
-## 🔍 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 ### Visualization Pipeline
 
@@ -49,7 +49,7 @@ This project implements multiple deep learning architectures to forecast HDFC st
 
 ---
 
-## 📊 Evaluation Framework
+##  Evaluation Framework
 
 ### Custom Metrics Implementation
 
@@ -69,7 +69,7 @@ Metrics Used:
 
 ---
 
-## 🎯 Baseline Model: Naive Forecast
+##  Baseline Model: Naive Forecast
 
 Before diving into deep learning, a naive forecast was established as a baseline using the most recent observation as the prediction.
 
@@ -85,7 +85,7 @@ Before diving into deep learning, a naive forecast was established as a baseline
 
 ---
 
-## 🏗️ Model Architecture & Results
+##  Model Architecture & Results
 
 ### Window Creation Framework
 
@@ -97,7 +97,7 @@ Custom functions were developed to transform the time series into supervised lea
 
 ---
 
-## 🤖 Univariate Models (Single Feature: Close Price)
+##  Univariate Models (Single Feature: Close Price)
 
 ### Model 1: Dense Neural Network (Window=7, Horizon=1)
 
@@ -156,7 +156,7 @@ Output Layer (1 unit)
 
 ---
 
-## 🎨 Multivariate Models (Multiple Features)
+##  Multivariate Models (Multiple Features)
 
 ### Feature Engineering Strategy
 
@@ -183,7 +183,7 @@ Columns:
 
 ---
 
-### Model 4: Multivariate Dense Network ⭐
+### Model 4: Multivariate Dense Network 
 
 **Architecture:**
 ```
@@ -206,7 +206,7 @@ Output Layer (1 unit)
 
 ---
 
-### Model 5: Multivariate Stacked LSTM 🏆
+### Model 5: Multivariate Stacked LSTM 
 
 **Architecture:**
 ```
@@ -232,7 +232,7 @@ Output Layer (1 unit)
 
 ---
 
-## 📈 Model Comparison Summary
+##  Model Comparison Summary
 
 | Model | Type | Window | Features | MAE ↓ | RMSE ↓ | MAPE ↓ | MASE ↓ |
 |-------|------|--------|----------|-------|--------|--------|--------|
@@ -244,7 +244,7 @@ Output Layer (1 unit)
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 ### 1. Multivariate > Univariate
 The incorporation of lagged features and VWAP dramatically improved model performance, demonstrating the importance of feature engineering in time series forecasting.
@@ -262,7 +262,7 @@ LSTM networks demonstrated their strength when given sufficient context through 
 
 ---
 
-## 🛠️ Technical Implementation
+##  Technical Implementation
 
 ### Technologies Used
 - **Python** - Core programming language
@@ -280,7 +280,7 @@ LSTM networks demonstrated their strength when given sufficient context through 
 
 ---
 
-## 🎓 Methodology Highlights
+##  Methodology Highlights
 
 ### Data Integrity
 - **Chronological splitting** preserved temporal order
@@ -297,7 +297,7 @@ The project follows a logical progression:
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - [ ] Hyperparameter optimization using GridSearch/RandomSearch
 - [ ] Attention mechanisms for improved temporal focus
@@ -309,7 +309,7 @@ The project follows a logical progression:
 
 ---
 
-## 📝 Conclusion
+##  Conclusion
 
 This project successfully demonstrates the power of deep learning in financial time series forecasting. By systematically exploring different architectures and feature engineering strategies, we achieved a **60% improvement** over baseline predictions. The multivariate LSTM model (Model 5) emerged as the clear winner, showcasing the importance of combining appropriate architecture with rich feature sets.
 
