@@ -200,9 +200,9 @@ Output Layer (1 unit)
 | 16.23 | 19.99 | 0.832% | 0.621 |
 
 **Breakthrough:** 
-- 🎯 **37.8%** improvement in MAE over baseline
-- 🎯 **48.1%** improvement in RMSE over baseline
-- 🎯 **37.3%** improvement in MASE over baseline
+-  **37.8%** improvement in MAE over baseline
+-  **48.1%** improvement in RMSE over baseline
+-  **37.3%** improvement in MASE over baseline
 
 ---
 
@@ -225,10 +225,10 @@ Output Layer (1 unit)
 | 10.49 | 15.30 | 0.542% | 0.401 |
 
 **Best Performance:**
-- 🏆 **59.8%** improvement in MAE over baseline
-- 🏆 **60.3%** improvement in RMSE over baseline
-- 🏆 **59.5%** improvement in MASE over baseline
-- 🏆 **59.6%** improvement in MAPE over baseline
+-  **59.8%** improvement in MAE over baseline
+-  **60.3%** improvement in RMSE over baseline
+-  **59.5%** improvement in MASE over baseline
+-  **59.6%** improvement in MAPE over baseline
 
 ---
 
@@ -240,7 +240,7 @@ Output Layer (1 unit)
 | Model 1 | Dense | 7 | 1 | 26.19 | 38.54 | 1.34% | 1.003 |
 | Model 3 | LSTM | 7 | 1 | 35.60 | 46.87 | 1.82% | 1.36 |
 | Model 4 | Dense | - | 9 | 16.23 | 19.99 | 0.832% | 0.621 |
-| **Model 5** 🏆 | **LSTM** | **-** | **9** | **10.49** | **15.30** | **0.542%** | **0.401** |
+| **Model 5**  | **LSTM** | **-** | **9** | **10.49** | **15.30** | **0.542%** | **0.401** |
 
 ---
 
@@ -317,7 +317,7 @@ The progression from naive forecasting to sophisticated multivariate models prov
 
 ---
 
-## 📫 Contact & Contributions
+##  Contact & Contributions
 
 Feel free to fork, star ⭐, and contribute to this project!
 
