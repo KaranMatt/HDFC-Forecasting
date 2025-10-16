@@ -1,0 +1,52 @@
+univariate:
+   dense:
+     dense_win7:
+          window_size: 7
+          horizon: 1
+          epochs: 100
+          layers: 1
+          units_per_layer: [128]
+          activations: ['relu']
+          batch_size: 128
+          optimizer: Adam
+          learning_rate: default
+
+     dense_win30:    
+          window_size: 30
+          horizon: 1
+          epochs: 100
+          layers: 1
+          units_per_layer: [128]
+          activations: ['relu']
+          batch_size: 128
+          optimizer: Adam
+          learning_rate: default
+
+multivariate:
+       lstm:
+            window_size: 7
+            horizon: 1
+            epochs: 100
+            layers: 3
+            units_per_layer: [128,128,192]
+            activations: ['relu','relu','relu']
+            batch_size: 128
+            optimizer: Adam
+            learning_rate: default         
+
+       bilstm:
+            window_size: 7
+            horizon: 1
+            epochs: 100
+            layers: 3
+            units_per_layer: [128,128,192]
+            activations: ['relu','relu','relu']
+            batch_size: 128
+            optimizer: Adam
+            learning_rate: default    
+
+
+       linear_reg:
+          window_size: 7
+          horizon: 1
+          parameters : default

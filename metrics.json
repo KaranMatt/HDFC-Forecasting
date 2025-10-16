@@ -1,0 +1,13 @@
+{
+    "univariate":{
+        "Dense":{
+            "dense_win7": {"mae": 27.04,"rmse": 39.35,"mape": 1.39,"mase": 1.03},
+            "dense_win30": {"mae": 27.41,"rmse": 40.19,"mape": 1.41,"mase": 1.047}
+        }
+    },
+    "multivariate":{
+        "lstm":{"mae": 26.76,"rmse": 39.37,"mape": 1.37,"mase": 1.02},
+        "bilstm":{"mae": 26.73,"rmse": 39.21,"mape": 1.37,"mase": 1.02},
+        "linear_reg":{"mae": 26.21,"rmse": 38.17,"mape": 1.34,"mase": 1.00}
+    }
+}
